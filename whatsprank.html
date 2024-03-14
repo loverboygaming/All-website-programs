@@ -51,6 +51,16 @@ header{
   font-weight: 400;
   color: white;
 }
+#disp_prof_name{
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 1px;
+  padding-bottom: 2px;
+  font-weight: 600;
+  outline: none;
+    }
 .call_symb{
   position: absolute;
   right: 0px;
@@ -173,7 +183,7 @@ footer{
        <div class="arrow"><img src="arrow.jpg" height="25px" width="25px" alt="&#8592"></div>
        <div id="prof_img" onclick="send_videocall()"></div>
        <div class="prof_name">
-         <div>My heart💖💖</div>
+         <div><input typ="text" placeholder="contact name" id="disp_prof_name"></div>
          <div style="font-size: 10px;">Online</div>
        </div>
        <div class="call_symb" onclick="video_call_sending()"><img src="call_img.jpg" height="30px" alt="#"></div>
